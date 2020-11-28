@@ -1,5 +1,7 @@
 package algoClasses;
 
+import java.util.Iterator;
+
 /*
  * Stack class
  * push the items on the stack
@@ -7,8 +9,7 @@ package algoClasses;
  * use linked list concept of having item and reference to the next node
  */
 
-public class Stack<T>
-{
+public class Stack<T> {
 
 	/*
 	 * define an inner class to hold the item and reference to next node
@@ -50,4 +51,5 @@ public class Stack<T>
 		
 		
 	}
-}
+
+	}
